@@ -1,0 +1,30 @@
+  
+    
+    .Banner{
+     background-image: url('./images/hero-banner-desktop.png');
+     background-size: cover;
+     padding-top: 50px; 
+     padding-bottom: 50px; 
+     height: auto;
+  
+    }
+  
+
+
+@media screen and (max-width: 1050px)  {
+  
+  #BannerBackgroung {
+
+    color: red;
+  }
+
+  .Banner{
+    background-image: url('./images/hero-banner-mobile.png');
+    background-size: cover;
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    height: auto;
+  }
+}
+
+
