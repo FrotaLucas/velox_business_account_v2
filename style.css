@@ -265,9 +265,8 @@
   position: absolute;
   background-color: #00000033;
   left: 79px;
-  width: 1355px;
+  width: 100%;
   height: 2px;
-
 }
 
 .collapsible {
@@ -390,6 +389,11 @@
 
   #openinFewSteps > div:nth-child(2){
     width: unset;
+  }
+
+  #Questions > div > span {
+    left: 29px;
+    width: 100%;
   }
   
 }
