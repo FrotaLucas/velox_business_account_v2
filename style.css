@@ -145,6 +145,46 @@
       display: none;
     }
 
+
+    #openinFewSteps{
+      border: 5px solid black;
+      display: flex;
+    }
+    
+    #openinFewSteps > div:nth-child(2){
+      display: flex;
+      flex-direction: column;
+    }
+
+    .open-steps{
+      display: flex;
+      align-items: center;
+    }
+
+
+    .carousel {
+      width: 540px;
+      overflow: hidden;
+      border: 1px solid black;
+
+    }
+    
+    .carousel-container {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      /* border: 5px solid red; */
+      /* width: 600px; */
+    }
+    
+    .slide {
+      flex: 0 0 100%;
+    }
+    
+   .slide > img {
+      width: 100%;
+      height: auto;
+    }
+
 @media screen and (max-width: 1050px)  {
 
   .Banner{
@@ -242,6 +282,10 @@
     width: 60%;
   }
   
+  #openinFewSteps{
+    display: flex;
+    flex-direction: column;
+  }
   
 }
 
