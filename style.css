@@ -48,7 +48,6 @@
     #Benefits {
       display: flex;
       align-items: center;
-      justify-content: space-around;
       margin: 5vh 10vh 5vh;
     }
 
@@ -68,6 +67,8 @@
     #Benefits > div:nth-child(1){
       display: flex;
       flex-direction: column;
+      justify-content: space-evenly;
+      height: 50vh;
     }
 
     #Benefits > div:nth-child(2)
@@ -75,6 +76,7 @@
       display: flex;
       flex-direction: column;
       gap: 1rem;
+      margin-left: 20%;
     }
 
     .benefit-item{
@@ -115,7 +117,7 @@
     .video{
       position: relative;
       width: 45rem;
-      padding-bottom: 62%;
+      padding-bottom: 30%;
 
     }
 
@@ -166,6 +168,22 @@
     flex-direction: column;
   }
 
+  #Benefits > div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50vh;
+  }
+
+  #Benefits > div:nth-child(2)
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: unset;
+  }
+
+
   .benefit-desktop-button {
     display: none;
   }
@@ -185,6 +203,7 @@
 
   }
 
+  
   #HowDoesItWorks{
     margin: 5vh 10vh 5vh;
     display: flex;
@@ -196,6 +215,12 @@
   }
   #HowDoesItWorks > div:nth-child(1) {
     order:1;
+  }
+
+   
+  .video{
+    padding-bottom: 60%;
+
   }
 
   .howworks-desktop-button{
