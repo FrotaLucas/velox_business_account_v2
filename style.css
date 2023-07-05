@@ -222,6 +222,67 @@
       height: auto;
     }
 
+
+    
+
+#Questions {
+  padding: 5%;
+  background-color: white;
+  font-family: Helvetica;
+
+
+  .button-questions{
+    border-radius: 5px;
+    padding: 11px 15px;
+    border-width: 0.8px;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+}
+
+#Questions > h2 {
+  margin-bottom: 50px;
+}
+
+#Questions > div > p{
+  line-height: 150%;
+}
+
+#Questions > div > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#Questions > div > div {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+#Questions > div > span {
+  content: "";
+  position: absolute;
+  background-color: #00000033;
+  left: 79px;
+  width: 1355px;
+  height: 2px;
+
+}
+
+.collapsible {
+  cursor: pointer;
+}
+
+.content-question {
+  display: none;
+  /* transition: all 1s ease; */
+}
+
+.content-question-animation {
+  display: block;
+  }
+
 @media screen and (max-width: 1050px)  {
 
   .Banner{
